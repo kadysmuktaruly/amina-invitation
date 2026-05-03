@@ -36,7 +36,7 @@
     }
 
     .envelope {
-      width: 420px; height: 280px;
+      width: 340px; height: 226px;
       position: relative;
       filter: drop-shadow(0 30px 60px rgba(0,0,0,0.7));
     }
@@ -64,9 +64,9 @@
       position: absolute;
       top: 0; left: 0; right: 0;
       height: 0;
-      border-left: 210px solid transparent;
-      border-right: 210px solid transparent;
-      border-top: 140px solid #3a1a25;
+      border-left: 170px solid transparent;
+      border-right: 170px solid transparent;
+      border-top: 113px solid #3a1a25;
       transform-origin: top center;
       transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
       z-index: 2;
@@ -75,8 +75,8 @@
 
     .env-flap-inner {
       position: absolute;
-      top: -140px; left: -210px;
-      width: 420px; height: 140px;
+      top: -113px; left: -170px;
+      width: 340px; height: 113px;
       display: flex; align-items: center; justify-content: center;
       padding-bottom: 20px;
     }
@@ -98,15 +98,15 @@
       position: absolute;
       bottom: 0; left: 0;
       width: 0; height: 0;
-      border-left: 210px solid #2e1420;
-      border-top: 140px solid transparent;
+      border-left: 170px solid #2e1420;
+      border-top: 113px solid transparent;
     }
     .env-bottom-right {
       position: absolute;
       bottom: 0; right: 0;
       width: 0; height: 0;
-      border-right: 210px solid #261018;
-      border-top: 140px solid transparent;
+      border-right: 170px solid #261018;
+      border-top: 113px solid transparent;
     }
 
     .env-center {
@@ -1153,7 +1153,7 @@
        Format: new Date(YEAR, MONTH-1, DAY, HOUR, MINUTE)
        Example below = May 17, 2026 at 19:00
     ════════════════════════════════════════ */
-    const DINNER_DATE = new Date(2026, 4, 3, 19, 0); // <-- edit this line
+    const DINNER_DATE = new Date(2026, 4, 17, 19, 0); // <-- edit this line
 
     /* ── STARS ── */
     const starsEl = document.getElementById('stars');
